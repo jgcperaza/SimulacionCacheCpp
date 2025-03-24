@@ -3,7 +3,7 @@
 #include <list>
 #include <stxxl/vector>
 #include <stxxl/algorithm>
-#include <stxxl/bits/mempool.h> // Necesario para stxxl::simple_pool
+#include <mempool.h> // Necesario para stxxl::simple_pool
 
 // Definiciones de configuración del caché
 const size_t CACHE_SIZE = 1024; // Tamaño total del caché en elementos
